@@ -29,6 +29,7 @@ Because you need to support Arduino and DC motor,you'd better choose high voltag
 I recommend you choose 2 18650.
 
 **Software**
+
 We have 3 HC-SR04 so we would think a strategy we will face.
 1 means sensor is closing to obstacle ,and 0 means no obstacle in the following discussion.
 
