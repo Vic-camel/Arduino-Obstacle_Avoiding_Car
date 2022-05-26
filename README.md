@@ -27,15 +27,16 @@ Control DC motor through L298N
 * power system
 Because you need to support Arduino and DC motor,you'd better choose high voltage and high current betteries.
 I recommend you choose 2 18650.
+
 **Software**
 We have 3 HC-SR04 so we would think a strategy we will face.
 1 means sensor is closing to obstacle ,and 0 means no obstacle in the following discussion.
 
-000 means no obstacle so car go forward.
-001 means obstacle is on the right side so car have to turn left.
-010 means obstacle is in frint of car so car have to turn left.
-011 means obstacle is on the right side and in frint of car so car have to turn left.
-100 car have to turn right.
-101 car have to turn forward.
-110 car have to turn right.
-111 car have to turn around.
+- 000 means no obstacle so car go forward.
+- 001 means obstacle is on the right side so car have to turn left.
+- 010 means obstacle is in frint of car so car have to turn left.
+- 011 means obstacle is on the right side and in frint of car so car have to turn left.
+- 100 car have to turn right.
+- 101 car have to turn forward.
+- 110 car have to turn right.
+- 111 car have to turn around.
