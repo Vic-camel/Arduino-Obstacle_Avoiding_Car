@@ -33,11 +33,11 @@ I recommend you choose 2 18650.
 We have 3 HC-SR04 so we would think a strategy we will face.
 1 means sensor is closing to obstacle ,and 0 means no obstacle in the following discussion.
 
-- 000 means no obstacle so car go forward.
-- 001 means obstacle is on the right side so car have to turn left.
-- 010 means obstacle is in frint of car so car have to turn left.
-- 011 means obstacle is on the right side and in frint of car so car have to turn left.
-- 100 car have to turn right.
-- 101 car have to turn forward.
-- 110 car have to turn right.
-- 111 car have to turn around.
+- 000 means no obstacle so the car goes forward.
+- 001 means obstacle is on the right side so the car has to turn left.
+- 010 means obstacle is in frint of car so the car has to turn left.
+- 011 means obstacle is on the right side and in frint of car so the car has to turn left.
+- 100 the car has to turn right.
+- 101 the car has to turn forward.
+- 110 the car has to turn right.
+- 111 the car has to turn around.
